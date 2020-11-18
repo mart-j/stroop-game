@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+  padding-right: 10px;
+  color: palegoldenrod;
+  border-bottom: palegoldenrod solid 3px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.gameBody {
+  min-width: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:#499595;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.521);
+}

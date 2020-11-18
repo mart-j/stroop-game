@@ -1,0 +1,22 @@
+.button,
+.buttonExit {
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  background-color: #144b9e;
+  margin: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+  
+  &:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.521);
+    background-color: #186be7;
+  }
+}
+
+.buttonExit {
+  background-color: #ce1616;
+
+  &:hover {
+    background-color: #f11919;
+  }
+}

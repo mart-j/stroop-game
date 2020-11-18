@@ -1,0 +1,65 @@
+.gameWrapper {
+text-align: center;
+}
+
+.instructions {
+  font-size: 30px;
+  color: palegoldenrod;
+  margin-bottom: 30px;
+}
+
+
+
+.instructionContent {
+    
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.instructionContent:first-of-type {
+    padding-top: 20px;
+}
+.color {
+  font-size: 50px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  width: 100%;
+  background: opacity($color: #9e9e9e);
+}
+
+.pointCount {
+  color: palegoldenrod;
+  font-size: 20px;
+}
+
+.pointCount span {
+    padding: 3px;
+font-size: 30px;
+background-color: #425265;
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.button {
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: rgba(0, 0, 0, 0.753);
+    background-color: #eee;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.747);
+}

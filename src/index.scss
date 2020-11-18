@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Goldman', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 70, 68),
+    rgb(122, 126, 133)
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
