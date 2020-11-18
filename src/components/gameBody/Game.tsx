@@ -27,7 +27,7 @@ const Game: FC<Props> = ({
               </p>
               <p>
                 Jums noteiktajā laikā jānospiež atbilstošu taustiņu teksta
-                krāsas pirmajam burtam.
+                krāsas pirmajam burtam (angļu valodā).
               </p>
               <div className={styles.luck}>Lai veicas <Emoji symbol="🤘" label="love" /></div>
             </div>
