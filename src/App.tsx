@@ -5,7 +5,8 @@ import { COLORS } from './components/colors/COLORS';
 import styles from './App.module.scss';
 import 'react-toastify/scss/main.scss';
 import Button from './components/button/Button';
-
+import { KEYPRESS } from './components/audio/KEYPRESS';
+import { ERROR } from './components/audio/ERROR';
 
 toast.configure();
 
@@ -19,21 +20,19 @@ const App = () => {
   const [gameLength, setGameLength] = useState(11);
   const randomColorNumber = Math.floor(Math.random() * COLORS.length);
   const randomTextNumber = Math.floor(Math.random() * COLORS.length);
+  const [speed, setSpeed] = useState(2000);
 
   useEffect(() => {
     document.title = 'Krāsu Spēle';
   }, []);
 
-
   // listens and records keypress
   useEffect(() => {
     window.addEventListener('keydown', (e: KeyboardEvent) => {
+      KEYPRESS.play();
       setKey(e.key);
     });
   }, []);
-
-
-
   // listens for tick (ticking every 2 seconds)
   useEffect(() => {
     gameProgress();
@@ -56,9 +55,11 @@ const App = () => {
     if (key === colorFirstChar) {
       setCount(count + 1);
     } else if (key !== colorFirstChar && gameLength !== 11) {
+      ERROR.play();
+
       toast.error('Krāsa nav pareiza!', {
         position: toast.POSITION.TOP_CENTER,
-        delay: 100,
+        delay: 10,
         autoClose: 1000,
       });
     }
@@ -82,13 +83,13 @@ const App = () => {
 
       setTimeout(() => {
         setTick(!tick);
-      }, 2000);
+      }, speed);
     }
   };
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.header} >Krāsu Spēle</h1>
+      <h1 className={styles.header}>Krāsu Spēle</h1>
       <div className={styles.gameBody}>
         <Game
           count={count}
@@ -102,8 +103,21 @@ const App = () => {
             <Button buttonClickHandler={resetGame} label="Mēģināt vēlreiz" />
           </>
         ) : (
-          <Button buttonClickHandler={startGame} label='Sākt' />
+          <Button buttonClickHandler={startGame} label="Sākt" />
         )}
+        
+        {/* {<input
+          value={speed}
+          onChange={(e) => {
+            setSpeed(Number(e.target.value));
+            console.log(speed);
+          }}
+          type="range"
+          id="speed"
+          name="speed"
+          min="500"
+          max="4000"
+        ></input>} */}
       </div>
     </div>
   );
