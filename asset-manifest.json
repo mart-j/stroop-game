@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/stroop-game/static/css/main.4aa6569e.chunk.css",
-    "main.js": "/stroop-game/static/js/main.79c3bace.chunk.js",
-    "main.js.map": "/stroop-game/static/js/main.79c3bace.chunk.js.map",
-    "runtime-main.js": "/stroop-game/static/js/runtime-main.83e16ea6.js",
-    "runtime-main.js.map": "/stroop-game/static/js/runtime-main.83e16ea6.js.map",
+    "main.css": "/stroop-game/static/css/main.3379cb21.chunk.css",
+    "main.js": "/stroop-game/static/js/main.a39d808a.chunk.js",
+    "main.js.map": "/stroop-game/static/js/main.a39d808a.chunk.js.map",
+    "runtime-main.js": "/stroop-game/static/js/runtime-main.4e155199.js",
+    "runtime-main.js.map": "/stroop-game/static/js/runtime-main.4e155199.js.map",
     "static/css/2.c3a5b3e2.chunk.css": "/stroop-game/static/css/2.c3a5b3e2.chunk.css",
-    "static/js/2.ec589f1b.chunk.js": "/stroop-game/static/js/2.ec589f1b.chunk.js",
-    "static/js/2.ec589f1b.chunk.js.map": "/stroop-game/static/js/2.ec589f1b.chunk.js.map",
-    "static/js/3.4b45263d.chunk.js": "/stroop-game/static/js/3.4b45263d.chunk.js",
-    "static/js/3.4b45263d.chunk.js.map": "/stroop-game/static/js/3.4b45263d.chunk.js.map",
+    "static/js/2.2edb3db5.chunk.js": "/stroop-game/static/js/2.2edb3db5.chunk.js",
+    "static/js/2.2edb3db5.chunk.js.map": "/stroop-game/static/js/2.2edb3db5.chunk.js.map",
+    "static/js/3.fcad286a.chunk.js": "/stroop-game/static/js/3.fcad286a.chunk.js",
+    "static/js/3.fcad286a.chunk.js.map": "/stroop-game/static/js/3.fcad286a.chunk.js.map",
     "index.html": "/stroop-game/index.html",
     "static/css/2.c3a5b3e2.chunk.css.map": "/stroop-game/static/css/2.c3a5b3e2.chunk.css.map",
-    "static/css/main.4aa6569e.chunk.css.map": "/stroop-game/static/css/main.4aa6569e.chunk.css.map",
-    "static/js/2.ec589f1b.chunk.js.LICENSE.txt": "/stroop-game/static/js/2.ec589f1b.chunk.js.LICENSE.txt"
+    "static/css/main.3379cb21.chunk.css.map": "/stroop-game/static/css/main.3379cb21.chunk.css.map",
+    "static/js/2.2edb3db5.chunk.js.LICENSE.txt": "/stroop-game/static/js/2.2edb3db5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83e16ea6.js",
+    "static/js/runtime-main.4e155199.js",
     "static/css/2.c3a5b3e2.chunk.css",
-    "static/js/2.ec589f1b.chunk.js",
-    "static/css/main.4aa6569e.chunk.css",
-    "static/js/main.79c3bace.chunk.js"
+    "static/js/2.2edb3db5.chunk.js",
+    "static/css/main.3379cb21.chunk.css",
+    "static/js/main.a39d808a.chunk.js"
   ]
 }
