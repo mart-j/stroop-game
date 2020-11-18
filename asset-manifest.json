@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stroop-game/static/css/main.3379cb21.chunk.css",
-    "main.js": "/stroop-game/static/js/main.a39d808a.chunk.js",
-    "main.js.map": "/stroop-game/static/js/main.a39d808a.chunk.js.map",
+    "main.js": "/stroop-game/static/js/main.113243df.chunk.js",
+    "main.js.map": "/stroop-game/static/js/main.113243df.chunk.js.map",
     "runtime-main.js": "/stroop-game/static/js/runtime-main.4e155199.js",
     "runtime-main.js.map": "/stroop-game/static/js/runtime-main.4e155199.js.map",
     "static/css/2.c3a5b3e2.chunk.css": "/stroop-game/static/css/2.c3a5b3e2.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.c3a5b3e2.chunk.css",
     "static/js/2.2edb3db5.chunk.js",
     "static/css/main.3379cb21.chunk.css",
-    "static/js/main.a39d808a.chunk.js"
+    "static/js/main.113243df.chunk.js"
   ]
 }
