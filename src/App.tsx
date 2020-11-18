@@ -20,6 +20,11 @@ const App = () => {
   const randomColorNumber = Math.floor(Math.random() * COLORS.length);
   const randomTextNumber = Math.floor(Math.random() * COLORS.length);
 
+  useEffect(() => {
+    document.title = 'Krāsu Spēle';
+  }, []);
+
+
   // listens and records keypress
   useEffect(() => {
     window.addEventListener('keydown', (e: KeyboardEvent) => {
