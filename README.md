@@ -1,3 +1,3 @@
 # Krāsu Spēle
 
-## Spied tur :point_right:[ATVĒRT](https://mart-j.github.io/stroop-game/)
+## :point_right:[ATVĒRT SPĒLI](https://mart-j.github.io/stroop-game/)
