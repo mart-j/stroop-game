@@ -30,9 +30,21 @@ const App = () => {
   useEffect(() => {
     window.addEventListener('keydown', (e: KeyboardEvent) => {
       KEYPRESS.play();
-      setKey(e.key);
+      const keyTransformer: { [key: string]: string } = {
+        s: 'r',
+        z: 'g',
+        r: 'p',
+        m: 'b',
+        d: 'y',
+        
+      
+       
+       
+      };
+      setKey(keyTransformer[e.key]);
     });
   }, []);
+
   // listens for tick (ticking every 2 seconds)
   useEffect(() => {
     gameProgress();
@@ -78,8 +90,8 @@ const App = () => {
       countPoints();
       setGameLength(gameLength - 1);
       setKey('');
-      setColorToDisplay(COLORS[randomColorNumber]);
-      setTextToDisplay(COLORS[randomTextNumber]);
+      setColorToDisplay(COLORS[randomColorNumber].color);
+      setTextToDisplay(COLORS[randomTextNumber].text);
 
       setTimeout(() => {
         setTick(!tick);
@@ -105,7 +117,7 @@ const App = () => {
         ) : (
           <Button buttonClickHandler={startGame} label="Sākt" />
         )}
-        
+
         {/* {<input
           value={speed}
           onChange={(e) => {

@@ -31,20 +31,20 @@ const Game: FC<Props> = ({
               <div className={styles.luck}>Lai veicas 🤘</div>
             </div>
             <div className={styles.instructionContent}>
-              <span className={styles.red}>Green</span> spied pogu
-              <span className={styles.button}>R</span> jo tinte ir sarkana
+              <span className={styles.red}>Zils</span> spied pogu
+              <span className={styles.button}>S</span> jo tinte ir sarkana
             </div>
             <div className={styles.instructionContent}>
-              <span className={styles.green}>Yellow</span> spied pogu
-              <span className={styles.button}>G</span> jo tinte ir zaļa
+              <span className={styles.green}>Sarkans</span> spied pogu
+              <span className={styles.button}>Z</span> jo tinte ir zaļa
             </div>
             <div className={styles.instructionContent}>
-              <span className={styles.blue}>Blue</span> spied pogu
-              <span className={styles.button}>B</span> jo tinte ir zila
+              <span className={styles.pink}>Dzeltens</span> spied pogu
+              <span className={styles.button}>R</span> jo tinte ir rozā
             </div>
             <div className={styles.instructionContent}>
-              <span className={styles.yellow}>Red</span> spied pogu
-              <span className={styles.button}>Y</span> jo tinte ir dzeltena
+              <span className={styles.black}>Rozā</span> spied pogu
+              <span className={styles.button}>M</span> jo tinte ir melna
             </div>
           </>
         ) : (

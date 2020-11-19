@@ -1,5 +1,5 @@
 .gameWrapper {
-text-align: center;
+  text-align: center;
 }
 
 .instructions {
@@ -17,17 +17,14 @@ text-align: center;
   line-height: 50px;
 }
 
-
 .instructionContent {
-    
-    line-height: 35px;
-    font-size: 20px;
+  line-height: 35px;
+  font-size: 20px;
 }
 
 .instructionContent:first-of-type {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 
 .color {
   font-size: 50px;
@@ -43,35 +40,38 @@ text-align: center;
 }
 
 .pointCount span {
-    padding: 3px;
-font-size: 30px;
-background-color: #425265;
+  padding: 3px;
+  font-size: 30px;
+  background-color: #425265;
   color: rgb(255, 255, 255);
   border-radius: 3px;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
-.blue {
-    color: blue;
+.black {
+  color: black;
+}
+.pink {
+  color: pink;
 }
 
 .green {
-    color: green;
+  color: green;
 }
 
 .yellow {
-    color: yellow;
+  color: yellow;
 }
 
 .button {
-    border-radius: 2px;
-    padding: 2px 4px;
-    color: rgba(0, 0, 0, 0.753);
-    background-color: #eee;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.747);
+  border-radius: 2px;
+  padding: 2px 4px;
+  color: rgba(0, 0, 0, 0.753);
+  background-color: #eee;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.747);
 }
 
 .luck {
