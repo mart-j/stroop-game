@@ -1,5 +1,4 @@
 import React, { FC } from 'react';
-import Emoji from 'a11y-react-emoji';
 import styles from './Game.module.scss';
 
 interface Props {
@@ -29,7 +28,7 @@ const Game: FC<Props> = ({
                 Jums noteiktajā laikā jānospiež atbilstošu taustiņu teksta
                 krāsas pirmajam burtam (angļu valodā).
               </p>
-              <div className={styles.luck}>Lai veicas <Emoji symbol="🤘" label="love" /></div>
+              <div className={styles.luck}>Lai veicas 🤘</div>
             </div>
             <div className={styles.instructionContent}>
               <span className={styles.red}>Green</span> spied pogu
